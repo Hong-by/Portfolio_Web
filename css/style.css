@@ -1,0 +1,28 @@
+.wrap{width: 100%; height: auto; position: relative;}
+/* header Style Code */
+header{_box-shadow: 2px 2px #eee; background: #194794; position: sticky; top: 0;}
+header .center{display: flex; justify-content: space-between;}
+header .logo{width: 80px; height: auto;}
+header .logo h1{background: #E55D87; background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87); background: linear-gradient(to right, #5FC3E4, #E55D87); -webkit-background-clip: text;-webkit-text-fill-color: transparent; padding: 5px 10px;}
+
+header .gnb{display: flex; align-items: center;}
+header .gnb ul{display: flex; justify-content: center; align-items: center; height: 100%; width: 100%;}
+header .gnb ul li{padding: 10px 20px; }
+header .gnb ul li a{font-family: 'S-CoreDream-5Medium', sans-serif; color:#fff; font-size: 18px;}
+
+
+/* landing Section Style Code */
+.landing{width: 100%; height: 100vh;}
+.landing-wrap{background: #194794; z-index: -10; position: relative; height: 70%; display: flex; justify-content: center;}
+.landing .center{position: relative; margin: 0;}
+#landing_video{padding: 0; width: 100%; position: relative; display: flex; justify-content: center;max-width: 100%; transform: translateY(200px); z-index: -1; _padding: 0 30px;}
+#landing_video #background_video{z-index: -2; width: 100%;}
+
+.landing .main_tit{padding-top: 80px; position: absolute; top: 0;}
+.landing .main_tit h2{color: #fff;}
+.landing .main_tit p{color: #fff;}
+
+
+.left, .right{width: 10%; height: 100%; position: relative;}
+.left-font{position: absolute; font-family: 'S-CoreDream-5Medium', sans-serif; color:#fff; font-size: 16px; transform: rotate(-90deg); right: -35px; bottom: 58px;}
+.right-font{position: absolute; font-family: 'S-CoreDream-5Medium', sans-serif; color:#fff; font-size: 16px; right: -35px; bottom: 12px;}

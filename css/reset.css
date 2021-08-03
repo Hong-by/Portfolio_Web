@@ -1,11 +1,22 @@
-/* Google Font Link */
+/* Web Font Link */
 @font-face {
-  font-family: 'S-CoreDream-9Black';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: 'S-CoreDream-5Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream-7ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Remove Default Style */
 *{margin:0; padding:0; box-sizing: border-box;}
@@ -19,12 +30,14 @@ em{font-style: normal;}
 b{font-weight: normal;}
 
 /* Setting Reset Layout Style */
-.center{width:100%; margin:auto; max-width:1230px; height:auto;}
-@media screen and (max-width:1230px){.center{padding:0 30px;}}
+.center{width:80%; margin:auto; max-width:1230px; height:auto;}
+
 .wrap{width:100%; height:auto;}
 .clearfix:after{display:block; content:''; clear:both;}
-body{font-size:14px; font-family: 'S-CoreDream-9Black', sans-serif; color:#212529; _height:3000px;}
-section{padding:80px 0;}
+body{font-size:14px; font-family: 'S-CoreDream-3Light', sans-serif; color:#212529; _height:3000px;}
+h1{font-family: 'S-CoreDream-7ExtraBold', sans-serif; color:#212529; font-size: 36px;}
+h2{font-family: 'S-CoreDream-7ExtraBold', sans-serif; color:#212529; font-size: 32px;}
+h3{font-family: 'S-CoreDream-5Medium', sans-serif; color:#212529; font-size: 18px;}
 
 /* Common Elements Style Code */
 /* Title */
