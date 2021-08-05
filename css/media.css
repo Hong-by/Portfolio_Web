@@ -22,7 +22,9 @@
 @media screen and (max-width: 650px){
 
   /* header Style Code */
+  header{background: #2a5fbd!important;}
   header .gnb ul{display: none;}
+  header .menu_ico{display: block;}
 
   /* landing Section Style Code */
   

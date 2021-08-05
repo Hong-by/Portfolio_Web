@@ -1,0 +1,10 @@
+/* Mobile Menu Animation */
+@keyframes close_on{
+  0%{}
+  100%{transform:translateY(-50%) rotate(45deg);}
+}
+
+@keyframes Mobile_on{
+  0%{transform: translateY(-100%);}
+  100%{transform: translateY(0);}
+}
