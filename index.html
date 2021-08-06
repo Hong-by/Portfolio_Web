@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="css/animation.css">
   <!-- Media CSS Style Code Link -->
   <link rel="stylesheet" href="css/media.css">
+  <!-- wow animation Plugin -->
+  <link rel="stylesheet" href="lib/css/animate.css">
 </head>
 
 <body>
@@ -29,9 +31,9 @@
         </div>
         <div class="gnb">
           <ul>
-            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="#"><i class="fas fa-laptop-code"></i> Project</a></li>
-            <li><a href="#"><i class="far fa-user"></i> About</a></li>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#project"><i class="fas fa-laptop-code"></i> Project</a></li>
+            <li><a href="#about"><i class="far fa-user"></i> About</a></li>
             <li><a href="#"><i class="far fa-file-alt"></i> Resume</a></li>
           </ul>
         </div>
@@ -46,9 +48,9 @@
       <nav class="mobile_Menu">
         <div class="center">
           <ul>
-            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="#"><i class="fas fa-laptop-code"></i> Project</a></li>
-            <li><a href="#"><i class="far fa-user"></i> About</a></li>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#project"><i class="fas fa-laptop-code"></i> Project</a></li>
+            <li><a href="#about"><i class="far fa-user"></i> About</a></li>
             <li><a href="#"><i class="far fa-file-alt"></i> Resume</a></li>
           </ul>
         </div>
@@ -56,7 +58,7 @@
       <div class="overlay"></div>
     </header>
     <!-- End of header -->
-    <section class="landing">
+    <section class="landing" id="home">
       <div class="landing-wrap">
         <div class="left">
           <p class="left-font">Portfolio 2021</p>
@@ -88,15 +90,165 @@
           <p class="right-font">hby033@naver.com</p>
         </div>
       </div>
+      <div class="landing-bottom"></div>
     </section>
     <!-- End of Landing Section -->
-    <section class="project">
+    <section class="project wow fadeInUp" id="project">
       <div class="center">
         <div class="sec_tit">
           <h2>Project</h2>
         </div>
         <div class="project_contants">
-
+          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
+            <img src="img/portfolio/zay.JPG" alt="">
+          </div>
+          <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
+            <h3>Database Project</h3>
+            <p>php를 활용해 구축된 전자 상거래 홈페이지 입니다.<br> 데이터베이스를 통해 상품 등록, 장바구니, 회원관리 등 기능을 제공합니다.</p>
+            <div class="language">
+              <ul>
+                <li><i class="fab fa-html5"></i>
+                  <p>HTML5</p>
+                </li>
+                <li><i class="fab fa-css3-alt"></i>
+                  <p>CSS3</p>
+                </li>
+                <li><i class="fab fa-js-square"></i>
+                  <p>Javascript</p>
+                </li>
+                <li><i class="fab fa-php"></i>
+                  <p>PHP</p>
+                </li>
+                <li><i class="fas fa-database"></i>
+                  <p>mySQL</p>
+                </li>
+              </ul>
+            </div>
+            <div class="con_link">
+              <em><a href="https://github.com/Hong-by/Database-Project"><i class="fab fa-github"></i> git</a></em>
+              <em><a href="http://hby033.dothome.co.kr/zay/index.php"><i class="fas fa-external-link-alt"></i>
+                  View</a></em>
+            </div>
+          </div>
+          <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
+            <h3>Schedule</h3>
+            <p>Database 기반으로 Schedule API를 구축하였습니다.</br>인증번호 : 1q2w3e4r </p>
+            <div class="language">
+              <ul>
+                <li><i class="fab fa-html5"></i>
+                  <p>HTML5</p>
+                </li>
+                <li><i class="fab fa-css3-alt"></i>
+                  <p>CSS3</p>
+                </li>
+                <li><i class="fab fa-js-square"></i>
+                  <p>Javascript</p>
+                </li>
+                <li><i class="fab fa-php"></i>
+                  <p>PHP</p>
+                </li>
+                <li><i class="fas fa-database"></i>
+                  <p>mySQL</p>
+                </li>
+              </ul>
+            </div>
+            <div class="con_link">
+              <em><a href="https://github.com/Hong-by/Portfolio_process"><i class="fab fa-github"></i> git</a></em>
+              <em><a href="http://hby033.dothome.co.kr/schedule/index.php"><i class="fas fa-external-link-alt"></i>
+                  View</a></em>
+            </div>
+          </div>
+          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
+            <img src="img/portfolio/schedule.JPG" alt="">
+          </div>
+          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
+            <img src="img/portfolio/renewal01.JPG" alt="">
+          </div>
+          <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
+            <h3>Renewal Page 01</h3>
+            <p>첫 번째 Renewal Project로 테슬라 홈페이지를 리뉴얼 했습니다. scroll Event와 wow plugin 등 활용한 가능한 간단한 기능을 구현하였습니다.</p>
+            <div class="language">
+              <ul>
+                <li><i class="fab fa-html5"></i>
+                  <p>HTML5</p>
+                </li>
+                <li><i class="fab fa-css3-alt"></i>
+                  <p>CSS3</p>
+                </li>
+                <li><i class="fab fa-js-square"></i>
+                  <p>Javascript</p>
+                </li>
+              </ul>
+            </div>
+            <div class="con_link">
+              <em><a href="https://github.com/Hong-by/Renewal-Tesla"><i class="fab fa-github"></i> git</a></em>
+              <em><a href="http://hby033.dothome.co.kr/renewal/"><i class="fas fa-external-link-alt"></i> View</a></em>
+            </div>
+          </div>
+          <div class="contant con_txt ">
+            <h3>Renewal Page 02</h3>
+            <p>두 번째 Renewal Project로 맘모스 커피 홈페이지를 리뉴얼했습니다. fullpage plugin을 기반으로 제작하였습니다.</p>
+            <div class="language">
+              <ul>
+                <li><i class="fab fa-html5"></i>
+                  <p>HTML5</p>
+                </li>
+                <li><i class="fab fa-css3-alt"></i>
+                  <p>CSS3</p>
+                </li>
+                <li><i class="fab fa-js-square"></i>
+                  <p>Javascript</p>
+                </li>
+              </ul>
+            </div>
+            <div class="con_link">
+              <em><a href="https://github.com/Hong-by/mammoth"><i class="fab fa-github"></i> git</a></em>
+              <em><a href="http://hby033.dothome.co.kr/mammoth"><i class="fas fa-external-link-alt"></i> View</a></em>
+            </div>
+          </div>
+          <div class="contant con_img ">
+            <img src="img/portfolio/renewal02.JPG" alt="">
+          </div>
+        </div>
+        <div class="load_more">
+          <button type="button">더보기</button>
+        </div>
+    </section>
+    <section class="about" id="about">
+      <div class="center">
+        <div class="sec_tit">
+          <h2>About Me</h2>
+        </div>
+        <div class="profile_contants">
+          <div class="profile">
+            <div class="profile_tit">
+              <p><i class="far fa-address-card"></i> contact</p>
+            </div>
+            <div class="profile_con">
+              <h2>홍범영</h2>
+              <h3>Homg BumYeong</h3>
+              <ul>
+                <li><i class="far fa-envelope"></i> hby033@naver.com</li>
+                <li><i class="fas fa-mobile-alt"></i> +82.10.3337.1363</li>
+                <li><i class="fab fa-github"></i> github.com/Hong-by</li>
+                <li><a href="">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="education profile">
+            <div class="profile_tit">
+              <p><i class="far fa-address-card"></i> Education</p>
+            </div>
+            <div class="profile_con">
+              <ul>
+                <li><i class="fas fa-school"></i> 스마트 웹디자인(UI/UX)콘텐츠개발(웹퍼블리셔) 교육 과정 수료</li>
+                <li><i class="fas fa-graduation-cap"></i> 성결대학교 경영학과 졸업 2017.08</li>
+                <li><i class="fas fa-graduation-cap"></i> 신일정보산업고등학교 졸업 2011.02</li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience"></div>
+          <div class="skil"></div>
         </div>
       </div>
     </section>
@@ -109,6 +261,11 @@
   <!-- Main Javascript Code Link -->
   <script src="js/main.js"></script>
   <script src="js/jqueyr.js"></script>
+  <!-- wow animation plugin -->
+  <script src="lib/js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
 

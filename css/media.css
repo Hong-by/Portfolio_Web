@@ -6,16 +6,35 @@
 @media screen and (max-width: 1230px){
 
   /* landing Section Style Code */
-  /* #landing_video{_padding: 0 30px; transform: translate(-30px, 200px);} */
-  /* .landing .center{position: relative; margin: auto;} */
   .center{width: 100%; padding: 0 30px;}
+}
+@media screen and (max-width: 1000px){
+  /* Project Section Style Code */
+  .project_contants .con_txt .language{display: none;}
 }
 
 @media screen and (max-width: 850px){
 
   /* landing Section Style Code */
   .landing .main_tit p{width: 450px;}
-  #landing_video{transform: translateY(220px);}
+  #landing_video{transform: translateY(220px); height: 55vh;}
+  #landing_video #background_video{width: auto; height: 100%; overflow: hidden;}
+
+  .typing{font-size: 28px;}
+
+  /* Project Section Style Code */
+  .project_contants .contant{width: 100%;}
+  .project_contants .contant:nth-child(1){order: 1;}
+  .project_contants .contant:nth-child(2){order: 2;}
+  .project_contants .contant:nth-child(3){order: 4;}
+  .project_contants .contant:nth-child(4){order: 3;}
+  .project_contants .contant:nth-child(5){order: 5;}
+  .project_contants .contant:nth-child(6){order: 6;}
+  .project_contants .contant:nth-child(7){order: 8;}
+  .project_contants .contant:nth-child(8){order: 7;}
+  .project_contants .contant:nth-child(9){order: 9;}
+  .project_contants .contant:nth-child(10){order: 10;}
+  .project_contants .con_txt{padding: 10px 10px 45px;}
 
 }
 
@@ -29,6 +48,7 @@
   /* landing Section Style Code */
   
   .landing .main_tit h2{font-size: 30px;}
+  .typing{font-size: 28px;}
 
 }
 
@@ -38,11 +58,22 @@
   .landing-wrap{height: 560px;}
   .landing .main_tit h2{width: 270px;}
   .landing .main_tit p{width: 300px; padding-top: 10px;}
-  #landing_video{transform: translateY(300px);}
-  /* .landing .main_tit p{display: none;} */
+  #landing_video{transform: translateY(300px); height: 30vh;}
+  #landing_video #background_video{height: auto; width: 100%;}
+  
+  /* Project Section Style Code */
+  .project_contants .con_txt h3{font-size: 18px;}
+  .project_contants .con_txt p{font-size: 12px;}
+  .project .load_more button{font-size: 12px;}
+
+  .project_contants .con_txt{padding: 10px;}
+  .project_contants .con_txt .con_link{width: 100%; display: flex; flex-wrap: wrap; position: static;}
+  .project_contants .con_txt em{width: 100%; margin-top: 10px; text-align: center; padding: 10px;}
 }
 
 @media screen and (max-width: 320px){
   .landing .main_tit p{display: none;}
   #landing_video{transform: translateY(220px);}
+
+ 
 }

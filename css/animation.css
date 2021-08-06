@@ -8,3 +8,9 @@
   0%{transform: translateY(-100%);}
   100%{transform: translateY(0);}
 }
+
+@keyframes cursor{ 
+  0%{border-right: 1px solid #fff} 
+  50%{border-right: 1px solid #000} 
+  100%{border-right: 1px solid #fff} 
+}
