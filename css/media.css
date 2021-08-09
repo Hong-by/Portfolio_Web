@@ -42,8 +42,9 @@
 
   /* header Style Code */
   header{background: #2a5fbd!important;}
+  header .center{padding: 0 5px;}
   header .gnb ul{display: none;}
-  header .menu_ico{display: block;}
+  header .menu_ico{display: flex;}
 
   /* landing Section Style Code */
   
