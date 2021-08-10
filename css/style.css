@@ -1,6 +1,6 @@
 .wrap{width: 100%; height: auto; position: relative;}
 /* header Style Code */
-header{_box-shadow: 2px 2px #eee; top: 0; _background: #194794; z-index: 999;}
+header{_box-shadow: 2px 2px #eee; top: 0; background: #194794; z-index: 999;}
 header .center{display: flex; justify-content: space-between; position: relative;}
 header .logo{width: 80px; height: auto;}
 header .logo h1{background: #E55D87; background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87); background: linear-gradient(to right, #5FC3E4, #E55D87); -webkit-background-clip: text;-webkit-text-fill-color: transparent; padding: 5px 10px;}
