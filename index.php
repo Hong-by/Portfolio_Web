@@ -100,7 +100,7 @@
         </div>
         <div class="project_contants">
           <div class="contant con_img wow fadeInUp" data-wow-offset="30">
-            <img src="img/portfolio/zay.JPG" alt="">
+            <a href="http://hby033.dothome.co.kr/zay/index.php"><img src="img/portfolio/zay.JPG" alt=""></a>
           </div>
           <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
             <h3>Database Project</h3>
@@ -159,10 +159,10 @@
             </div>
           </div>
           <div class="contant con_img wow fadeInUp" data-wow-offset="30">
-            <img src="img/portfolio/schedule.JPG" alt="">
+            <a href="http://hby033.dothome.co.kr/schedule/index.php"><img src="img/portfolio/schedule.JPG" alt=""></a>
           </div>
           <div class="contant con_img wow fadeInUp" data-wow-offset="30">
-            <img src="img/portfolio/renewal01.JPG" alt="">
+            <a href="http://hby033.dothome.co.kr/renewal/"><img src="img/portfolio/renewal01.JPG" alt=""></a>
           </div>
           <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
             <h3>Renewal Page 01</h3>
@@ -207,7 +207,7 @@
             </div>
           </div>
           <div class="contant con_img ">
-            <img src="img/portfolio/renewal02.JPG" alt="">
+            <a href="http://hby033.dothome.co.kr/mammoth"><img src="img/portfolio/renewal02.JPG" alt=""></a>
           </div>
         </div>
         <div class="load_more">
@@ -247,9 +247,111 @@
               </ul>
             </div>
           </div>
-          <div class="experience"></div>
-          <div class="skil"></div>
+          <div class="experience profile">
+            <div class="profile_tit">
+              <p><i class="fas fa-user-tie"></i> Experience</p>
+            </div>
+            <div class="profile_con">
+              <ul>
+                <li><i class="fas fa-briefcase"></i> (주)팀크리에이티브 / 기획 2019.4 ~ 2021.04</li>
+                <li><i class="fas fa-briefcase"></i> (주)와우인터렉티브 / 기획 2017.09 ~ 2018.09</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_tit">
+              <h3>Skill</h3>
+            </div>
+            <div class="skill_con">
+              <div class="skill_item">
+                <img src="img/lang/html5.png" alt="">
+                <p>HTML5</p>
+              </div>
+              <div class="skill_item">
+                <img src="img/lang/css3.png" alt="">
+                <p>CSS3</p>
+              </div>
+              <div class="skill_item">
+                <img src="img/lang/javascript.png" alt="">
+                <p>Javascript</p>
+              </div>
+              <div class="skill_item">
+                <img src="img/lang/php.png" alt="">
+                <p>PHP</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="sec_tit">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="contact">
+          <form class="write_form" action="/portfolio_web/php/contact_insert.php" name="write_form" method="post">
+            <div class="writer">
+              <div class="writer_item">
+                <label for="write_user">작성자</label>
+                <input type="text" placeholder="작성자" name="write_user" id="write_user">
+              </div>
+              <div class="writer_item">
+                <label for="write_phone">연락처</label>
+                <input type="text" placeholder="연락처을 입력해주세요" name="write_phone" id="write_phone">
+              </div>
+              <div class="writer_item">
+                <label for="write_email">이메일</label>
+                <input type="text" placeholder="이메일을 입력해주세요" name="write_email" id="write_email">
+              </div>
+            </div>
+            <div class="write_tit">
+              <label for="write_input">제목</label>
+              <input type="text" id="write_input" placeholder="제목을 입력해 주세요." name="write_input">
+            </div>
+            <div class="write_con">
+              <textarea placeholder="포트폴리오가 마음에 드신다면 내용을 입력해 주세요." name="write_con"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">글쓰기</button>
+            </div>
+          </form>
+        </div>
+        <div class="con_table">
+          <ul class="con_row">
+
+            <!-- ajax load here -->
+
+
+          </ul>
+        </div>
+        <div class="paging">
+          <span class="angle_double first"><i class="fa fa-angle-double-left"></i></span>
+          <span class="prev angle"><i class="fa fa-angle-left"></i></span>
+
+          <?php
+              include $_SERVER["DOCUMENT_ROOT"]."/connect/db_conn.php";
+              $sql_paging = "SELECT * FROM portfolio" ;
+
+              $paging_result = mysqli_query($dbConn, $sql_paging);
+              $total_record = mysqli_num_rows($paging_result);
+              $paging_num = 5;
+
+              if($total_record % $paging_num == 0){
+                $total_page = floor($total_record / $paging_num);
+              } else {
+                $total_page = floor($total_record / $paging_num + 1);
+              }
+
+              for($i = 1; $i <= $total_page; $i++){
+            ?>
+
+          <span class="num" onclick="getPage(<?=$i?>)"><?=$i?></span>
+
+          <?php
+              }
+            ?>
+          <span class="next angle"><i class="fa fa-angle-right"></i></span>
+          <span class="angle_double last"><i class="fa fa-angle-double-right"></i></span>
+        </div>
+
       </div>
     </section>
   </div>
@@ -261,10 +363,11 @@
   <!-- Main Javascript Code Link -->
   <script src="js/main.js"></script>
   <script src="js/jqueyr.js"></script>
+  <script src="js/jq.con_ajax.js"></script>
   <!-- wow animation plugin -->
   <script src="lib/js/wow.js"></script>
   <script>
-    new WOW().init();
+  new WOW().init();
   </script>
 
 </body>
