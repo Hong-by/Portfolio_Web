@@ -87,7 +87,7 @@ header .menu_ico.active span:nth-child(3){width:2px; height:100%; left:50%; tran
 .project .load_more button{background: #194794; padding: 10px 50px; font-family: 'S-CoreDream-3Light', sans-serif; color:#fff; font-size: 16px;}
 
 /* About Page Style Code */
-.about{background: #eee; height: auto;}
+.about{background: #eee; height: auto; padding-bottom: 50px;}
 .about .sec_tit{width: 100%; padding-top: 80px; text-align: left;}
 
 .profile_contants{display: flex; flex-wrap: wrap; flex-direction: column; height: 500px;}
@@ -133,3 +133,8 @@ input{width: 69%;}
 .paging span.num{background: #fff; color: #194794;}
 .paging span.num.active{background: #194794; color: #fff;}
 
+/* footer Style Code */
+footer{background: #333; padding: 10px 0;}
+footer .center{display: flex; justify-content: space-between; align-items: center;}
+.footer p{color: #fff;}
+.footer p a{color: #fff; font-size: 20px; padding: 0 5px;}

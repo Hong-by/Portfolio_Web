@@ -69,6 +69,8 @@
 
   .contact{padding: 20px 10px;}
 
+  /* footer Style Code */
+  footer .center{flex-direction: column;}
 }
 
 @media screen and (max-width: 500px){
@@ -103,11 +105,15 @@
   .con_table li span:nth-child(2){width: 20%;}
   .con_table li span:nth-child(3){width: 60%;}
   .con_table li span:nth-child(4){display: none;}
+
+  /* footer Style Code */
+  .footer p{font-size: 10px;}
+  .footer p a{font-size: 14px;}
 }
 
 @media screen and (max-width: 320px){
   .landing .main_tit p{display: none;}
   #landing_video{transform: translateY(220px);}
 
- 
+  
 }

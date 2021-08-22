@@ -354,6 +354,21 @@
 
       </div>
     </section>
+    <footer>
+      <div class="center">
+        <div class="footer">
+          <p>Designed and Developed by Hong BumYeong</p>
+        </div>
+        <div class="footer">
+          <p>Copyright &copy; 2021 BY Hong</p>
+        </div>
+        <div class="footer">
+          <p><a href="https://github.com/Hong-by"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/by.hong/"><i class="fab fa-instagram"></i></a>
+          </p>
+        </div>
+      </div>
+    </footer>
   </div>
 
 
