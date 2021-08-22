@@ -131,6 +131,40 @@
             </div>
           </div>
           <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
+            <h3>go Camping</h3>
+            <p>한국 관광공사의 고캠핑 API를 활용하여 만든 go camping입니다.
+              주변 캠핑장 검색 및 캠핑장 이름으로 캠핑장을 검색할 수 있는 기능을 적용하였으며 검색 결과에 따른 상세페이지를 구현하였습니다.</p>
+            <div class="language">
+              <ul>
+                <li><i class="fab fa-html5"></i>
+                  <p>HTML5</p>
+                </li>
+                <li><i class="fab fa-css3-alt"></i>
+                  <p>CSS3</p>
+                </li>
+                <li><i class="fab fa-js-square"></i>
+                  <p>Javascript</p>
+                </li>
+                <li><i class="fab fa-php"></i>
+                  <p>PHP</p>
+                </li>
+              </ul>
+            </div>
+            <div class="con_link">
+              <em><a href="https://github.com/Hong-by/API_Project"><i class="fab fa-github"></i> git</a></em>
+              <em><a href="https://dabipyeung.com/APIProject/bumyeung/API_project/"><i
+                    class="fas fa-external-link-alt"></i>
+                  View</a></em>
+            </div>
+          </div>
+          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
+            <a href="https://dabipyeung.com/APIProject/bumyeung/API_project/" class="gocamping"><img
+                src="img/portfolio/gocamping.png" alt=""></a>
+          </div>
+          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
+            <a href="http://hby033.dothome.co.kr/schedule/index.php"><img src="img/portfolio/schedule.JPG" alt=""></a>
+          </div>
+          <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
             <h3>Schedule</h3>
             <p>Database 기반으로 Schedule API를 구축하였습니다.</br>인증번호 : 1q2w3e4r </p>
             <div class="language">
@@ -158,12 +192,6 @@
                   View</a></em>
             </div>
           </div>
-          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
-            <a href="http://hby033.dothome.co.kr/schedule/index.php"><img src="img/portfolio/schedule.JPG" alt=""></a>
-          </div>
-          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
-            <a href="http://hby033.dothome.co.kr/renewal/"><img src="img/portfolio/renewal01.JPG" alt=""></a>
-          </div>
           <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
             <h3>Renewal Page 01</h3>
             <p>첫 번째 Renewal Project로 테슬라 홈페이지를 리뉴얼 했습니다. scroll Event와 wow plugin 등 활용한 가능한 간단한 기능을 구현하였습니다.</p>
@@ -185,7 +213,13 @@
               <em><a href="http://hby033.dothome.co.kr/renewal/"><i class="fas fa-external-link-alt"></i> View</a></em>
             </div>
           </div>
-          <div class="contant con_txt ">
+          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
+            <a href="http://hby033.dothome.co.kr/renewal/"><img src="img/portfolio/renewal01.JPG" alt=""></a>
+          </div>
+          <div class="contant con_img wow fadeInUp" data-wow-offset="30">
+            <a href="http://hby033.dothome.co.kr/mammoth"><img src="img/portfolio/renewal02.JPG" alt=""></a>
+          </div>
+          <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
             <h3>Renewal Page 02</h3>
             <p>두 번째 Renewal Project로 맘모스 커피 홈페이지를 리뉴얼했습니다. fullpage plugin을 기반으로 제작하였습니다.</p>
             <div class="language">
@@ -206,9 +240,7 @@
               <em><a href="http://hby033.dothome.co.kr/mammoth"><i class="fas fa-external-link-alt"></i> View</a></em>
             </div>
           </div>
-          <div class="contant con_img ">
-            <a href="http://hby033.dothome.co.kr/mammoth"><img src="img/portfolio/renewal02.JPG" alt=""></a>
-          </div>
+
         </div>
         <div class="load_more">
           <button type="button">더보기</button>
