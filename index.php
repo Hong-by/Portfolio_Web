@@ -34,7 +34,7 @@
             <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
             <li><a href="#project"><i class="fas fa-laptop-code"></i> Project</a></li>
             <li><a href="#about"><i class="far fa-user"></i> About</a></li>
-            <li><a href="#"><i class="far fa-file-alt"></i> Resume</a></li>
+            <li><a href="./file/이력서(홍범영).pdf" download><i class="far fa-file-alt"></i> Resume</a></li>
           </ul>
         </div>
 
