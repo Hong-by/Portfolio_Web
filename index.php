@@ -39,7 +39,7 @@
         </div>
 
         <!-- Mobile Menu Icon -->
-        <div class="menu_ico">
+        <div class="menu_ico" onclick="MobileBtn()">
           <span></span>
           <span></span>
           <span></span>
@@ -55,7 +55,7 @@
           </ul>
         </div>
       </nav>
-      <div class="overlay"></div>
+      <div class="overlay" onclick="MobileBtn()"></div>
     </header>
     <!-- End of header -->
     <section class="landing" id="home">
@@ -166,7 +166,7 @@
           </div>
           <div class="contant con_txt wow fadeInUp" data-wow-offset="200">
             <h3>Schedule</h3>
-            <p>Database 기반으로 Schedule API를 구축하였습니다.</br>인증번호 : 1q2w3e4r </p>
+            <p>Database 기반으로 Schedule API를 구축하였습니다.<br>인증번호 : 1q2w3e4r </p>
             <div class="language">
               <ul>
                 <li><i class="fab fa-html5"></i>
@@ -263,7 +263,6 @@
                 <li><i class="far fa-envelope"></i> hby033@naver.com</li>
                 <li><i class="fas fa-mobile-alt"></i> +82.10.3337.1363</li>
                 <li><i class="fab fa-github"></i> github.com/Hong-by</li>
-                <li><a href="">Resume</a></li>
               </ul>
             </div>
           </div>
@@ -276,17 +275,6 @@
                 <li><i class="fas fa-school"></i> 스마트 웹디자인(UI/UX)콘텐츠개발(웹퍼블리셔) 교육 과정 수료</li>
                 <li><i class="fas fa-graduation-cap"></i> 성결대학교 경영학과 졸업 2017.08</li>
                 <li><i class="fas fa-graduation-cap"></i> 신일정보산업고등학교 졸업 2011.02</li>
-              </ul>
-            </div>
-          </div>
-          <div class="experience profile">
-            <div class="profile_tit">
-              <p><i class="fas fa-user-tie"></i> Experience</p>
-            </div>
-            <div class="profile_con">
-              <ul>
-                <li><i class="fas fa-briefcase"></i> (주)팀크리에이티브 / 기획 2019.4 ~ 2021.04</li>
-                <li><i class="fas fa-briefcase"></i> (주)와우인터렉티브 / 기획 2017.09 ~ 2018.09</li>
               </ul>
             </div>
           </div>
